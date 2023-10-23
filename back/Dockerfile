@@ -11,4 +11,4 @@ COPY . .
 EXPOSE 8080
 
 RUN tsc
-CMD [ "node", "index.js" ]
+CMD [ "node", "dist/index.js" ]
