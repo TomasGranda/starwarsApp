@@ -1,4 +1,4 @@
-const apiURL = "http://localhost:5000/api";
+const apiURL = `http://${process.env.API_URL}:5000/api`;
 
 const charactersURL = apiURL + "/characters";
 const filmsURL = apiURL + "/films";
